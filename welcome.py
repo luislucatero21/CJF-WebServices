@@ -11,6 +11,7 @@ app = Flask(__name__, instance_path=APP_ROOT)
 CORS(app)
 app.config['SECRET_KEY'] =\
     '\x89\xfb\xb8\xd7\x00\x9ao\xbf\x1f\xd8r\xeb\x8ebJ\x01\x01\xbb\xd4\xab\x1e\x85V\x10\xf3\xcb\x80\xe48\xcf\x03\x92'
+#app.config['SQLALCHEMY_DATABASE_URI'] = os.environ['DATABASE_URL']
 
 #COS = welcome_consultas.CosObj()
 
